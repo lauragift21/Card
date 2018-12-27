@@ -1,9 +1,9 @@
-It's me, Tierney!
+It's me, Gift!
 
 # Usage
 Via npx:
 ```
-npx bitandbang
+npx lauragift21
 ```
 
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
+This is a fork of [@bitandbang](https://github.com/bnb/bitandbang) npx card with a touch of my own goodness 😂
