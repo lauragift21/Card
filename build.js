@@ -15,18 +15,16 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
+  name: chalk.magenta('Egwuenu Gift'),
+  handle: chalk.blueBright('lauragift21'),
+  work: chalk.white('Software Developer at Andela'),
+  twitter: chalk.white('https://twitter.com/') + chalk.cyan('lauragift21'),
+  npm: chalk.white('https://npmjs.com/') + chalk.red('~lauragift21'),
+  github: chalk.white('https://github.com/') + chalk.green('lauragift21'),
+  linkedin: chalk.white('https://linkedin.com/in/') + chalk.blueBright('egwuenugift'),
+  web: chalk.cyan('https://giftegwuenu.com'),
+  npx: chalk.red('npx') + ' ' + chalk.green('lauragift21'),
   labelWork: chalk.white.bold('       Work:'),
-  labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
@@ -39,7 +37,6 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
@@ -51,7 +48,6 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
-               opensourcing + newline + newline + // data.labelOpenSource + data.opensource
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
